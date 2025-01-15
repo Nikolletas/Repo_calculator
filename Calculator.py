@@ -10,7 +10,8 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-        	return a / b
+            return "Division by zero is not allowed"
+        return a / b
 
 
 calc = Calculator()
